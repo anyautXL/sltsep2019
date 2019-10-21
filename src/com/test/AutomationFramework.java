@@ -10,7 +10,7 @@ public class AutomationFramework {
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Manoj\\Project\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.co.in");
+		driver.get("https://www.facebook.com");
 		driver.quit();
 
 	}
